@@ -1,0 +1,58 @@
+
+.account .section-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.account .info-card {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.account .info-card h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.account .info-card .info-text p {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0px 5px 20px;
+}
+
+.account .info-card .change-password,
+.account .view-history {
+  color: #007bff;
+  text-decoration: none;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.account .info-card .change-password:hover,
+.account .view-history:hover {
+  text-decoration: underline;
+}
+.account .row .col-md-6,
+.account .col-md-9,
+.account .col-12 {
+  border-radius: 10px;
+}
+.account .gray-section {
+  background-color: #f2f2f2;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+
+@media (max-width: 767px) {
+  .account .info-card {
+    margin-bottom: 20px;
+  }
+}
+
+.account .modal-footer button {
+  background-color: #f6e1c3;
+  color: #a84448;
+  font-size: 18px;
+}
