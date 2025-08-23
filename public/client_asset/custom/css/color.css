@@ -1,0 +1,450 @@
+/* :root {
+    --base-color: #0C1844;
+    --base-color-hover: #C80036;
+    --base-bg: #C80036;
+    --text-base: #C80036;
+} */
+:root {
+    --base-color: #425A8B;
+    --base-color-hover: #425A8B;
+    --base-bg: #ffffff;
+    --text-color: #425A8B;
+}
+
+.text-stnt {
+    color: var(--text-base) !important;
+}
+.text-tgnt {
+    color: var(--text-base) !important;
+}
+.input-tgnt {
+    border-radius: 20px;
+    padding: 15px 25px;
+}
+
+.form-check-input:checked {
+    background-color: var(--base-color);
+    border-color: var(--base-color);
+}
+
+.form-check-input[type="checkbox"] {
+    border-radius: 0.25em;
+}
+.form-check .form-check-input {
+    float: left;
+    margin-left: -1.5em;
+}
+.form-check-input {
+    --fc-form-check-bg: #fff;
+    background-color: var(--fc-form-check-bg);
+    background-image: var(--fc-form-check-bg-image);
+    background-position: 50%;
+}
+
+.bg-stnt {
+    background-color: var(--base-color) !important;
+}
+
+.bg-tgnt {
+    background-color: var(--base-color) !important;
+}
+
+.form-control:focus,
+.form-check-input:focus {
+    border-color: #543a14 !important;
+    box-shadow: unset !important;
+    color: #543a14;
+    outline: 0;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: var(--base-color) !important;
+}
+a {
+    color: var(--base-color) !important;
+}
+a.active {
+    color: var(--base-color) !important;
+}
+a:hover {
+    color: var(--base-color) !important;
+}
+
+.nav-line-bottom .nav-item .nav-link.active {
+    color: var(--base-color) !important;
+    border-bottom: 2px solid var(--base-color) !important;
+}
+
+.nav-line-bottom .nav-item .nav-link:hover {
+    color: var(--base-color) !important;
+    border-bottom: 2px solid var(--base-color) !important;
+}
+
+/* button theo style cảu web mình  */
+/* cách dùng class="btn btn-stnt" */
+
+.btn-stnt {
+    background-color: var(--base-color) !important;
+    border-color: var(--base-color) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+
+.btn-stnt:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-stnt:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-stnt:active {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-stnt:active:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-stnt:active:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-stnt {
+    background-color: #fff !important;
+    border-color: var(--base-color) !important;
+    color: var(--base-color) !important;
+    border-radius: 20px !important;
+}
+
+.btn-outline-stnt:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-stnt:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-stnt:active {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-stnt:active:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-stnt:active:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-stnt:focus {
+    box-shadow: 0 0 0 0.25rem rgba(168, 68, 72, 0.25) !important;
+    outline: 0;
+}
+
+/* không bo tròn */
+.btn-outline-tgnt.active {
+    background-color: var(--base-color) !important;
+    border-color: var(--base-color) !important;
+    color: #fff !important;
+}
+.btn-outline-tgnt {
+    background-color: #fff !important;
+    border-color: var(--base-color) !important;
+    color: var(--base-color) !important;
+    border-radius: 20px !important;
+}
+
+.btn-outline-tgnt:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:active {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:active:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:active:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:focus {
+    box-shadow: 0 0 0 0.25rem rgba(168, 68, 72, 0.25) !important;
+    outline: 0;
+}
+
+/*  */
+
+.btn-tgnt {
+    background-color: var(--base-color) !important;
+    border-color: var(--base-color) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+
+.btn-tgnt:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:active {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:active:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:active:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.form-select {
+    border-color: var(--base-color) !important;
+}
+
+.form-select:focus {
+    border-color: var(--base-color) !important;
+    box-shadow: unset !important;
+    outline: 0;
+}
+
+/* không bo tròn */
+.btn-outline-tgnt.active {
+    background-color: var(--base-color) !important;
+    border-color: var(--base-color) !important;
+    color: #fff !important;
+}
+.btn-outline-tgnt {
+    background-color: transparent !important;
+    border-color: var(--base-color) !important;
+    color: var(--base-color) !important;
+}
+
+.btn-outline-tgnt:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:active {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:active:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:active:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-outline-tgnt:focus {
+    box-shadow: 0 0 0 0.25rem rgba(168, 68, 72, 0.25) !important;
+    outline: 0;
+}
+
+/*  */
+
+.btn-tgnt {
+    background-color: var(--base-color) !important;
+    border-color: var(--base-color) !important;
+    color: #fff !important;
+    border-radius: 20px !important;
+}
+
+.btn-tgnt:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:active {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:active:focus {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.btn-tgnt:active:hover {
+    background-color: var(--base-color-hover) !important;
+    border-color: var(--base-color-hover) !important;
+    color: #fff !important;
+}
+
+.form-select {
+    border-color: var(--base-color) !important;
+}
+
+.form-select:focus {
+    border-color: var(--base-color) !important;
+    box-shadow: unset !important;
+    outline: 0;
+}
+
+.bar form {
+    width: 100%;
+}
+
+.bar .form-select,
+.bar input {
+    width: 100%;
+}
+
+/* heart */
+.con-like {
+    --red: red;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.con-like .like {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 20;
+    cursor: pointer;
+}
+
+.con-like .checkmark {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-like .outline,
+.con-like .filled {
+    fill: var(--red);
+    position: absolute;
+}
+
+.con-like .filled {
+    animation: kfr-filled 0.5s;
+    display: none;
+}
+
+.con-like .celebrate {
+    position: absolute;
+    animation: kfr-celebrate 0.5s;
+    animation-fill-mode: forwards;
+    display: none;
+}
+
+.con-like .poly {
+    stroke: var(--red);
+    fill: var(--red);
+}
+
+.con-like .like:checked ~ .checkmark .filled {
+    display: block;
+}
+
+.con-like .like:checked ~ .checkmark .celebrate {
+    display: block;
+}
+
+@keyframes kfr-filled {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.2);
+    }
+}
+
+@keyframes kfr-celebrate {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+        display: none;
+    }
+}

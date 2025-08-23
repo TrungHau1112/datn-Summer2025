@@ -1,0 +1,66 @@
+.vd_message_js {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2010;
+  transition: 0.3s;
+  position: fixed;
+}
+
+.vd_message {
+  padding: 9px 12px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px 0 rgba(0, 0, 0, 0.08),
+    0 3px 6px -4px rgba(0, 0, 0, 0.12), 0 9px 28px 8px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  transition: 0.3s;
+  width: auto;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.vd_message_main {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.vd_message_icon {
+  line-height: 0;
+}
+.vd_message_noti {
+  color: rgba(0, 0, 0, 0.88);
+  font-size: 14px;
+  line-height: 1.5714285714285714;
+  list-style: none;
+  pointer-events: none;
+}
+
+/* status */
+.vd_message.success .vd_message_icon {
+  color: #52c41a;
+}
+
+.vd_message.error .vd_message_icon {
+  color: red;
+}
+
+.vd_message.warning .vd_message_icon {
+  color: orange;
+}
+
+.vd_message.info .vd_message_icon {
+  color: #0d6efd;
+}
+
+
+
+

@@ -1,0 +1,15 @@
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Base house shape -->
+  <rect x="50" y="100" width="50" height="50" fill="#B08E6C" />
+  
+  <!-- Roof lines -->
+  <line x1="50" y1="100" x2="75" y2="70" stroke="#B08E6C" stroke-width="3" />
+  <line x1="75" y1="70" x2="100" y2="100" stroke="#B08E6C" stroke-width="3" />
+  
+  <!-- Vertical line crossing the house -->
+  <line x1="75" y1="50" x2="75" y2="150" stroke="#B08E6C" stroke-width="2" />
+  
+  <!-- Horizontal lines on the house -->
+  <line x1="50" y1="125" x2="100" y2="125" stroke="#B08E6C" stroke-width="2" />
+  <line x1="50" y1="137" x2="100" y2="137" stroke="#B08E6C" stroke-width="2" />
+</svg>
