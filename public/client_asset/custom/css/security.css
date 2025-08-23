@@ -1,0 +1,14 @@
+h1{
+    line-height: 38px; 
+    font-size: 10px;
+    text-align: center;
+}
+
+section img{
+    width: 100%;
+    height: 400px;
+}
+
+.text-red {
+    font-size: 20px; 
+}
