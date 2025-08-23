@@ -140,3 +140,4 @@ GROUP BY phone;
 - ✅ Thêm command line tool
 - ✅ Cải thiện logging và debugging
 - ✅ Thêm middleware tự động cập nhật
+### 2. Các cách cập nhật bom hàng
