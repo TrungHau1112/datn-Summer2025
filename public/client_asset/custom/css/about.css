@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.about .banner p {
+  font-size: clamp(7px, 1vw, 30px);
+}
+.about .banner a:hover {
+  color: #b9b9b9 !important;
+}
+.about h2 {
+  font-size: clamp(15px, 3vw, 30px);
+}
+.about .banner > label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -00%);
+  color: white;
+  font-size: clamp(10px, 2.5vw, 50px);
+  font-weight: 500;
+  text-align: center;
+}
+.about .about-item1 {
+  width: 50%;
+}
+.about .about-item1 p {
+  font-size: clamp(10px, 3vw, 17px);
+}
+.about .about-item3 .row > * {
+  padding: 0 !important;
+}
+.about .banner p {
+  font-size: clamp(7px, 1vw, 30px);
+}
+.about .about-item3 p {
+  font-size: clamp(7px, 1.5vw, 30px) !important;
+}
+@media (max-width: 768px) {
+  .about-item1 {
+    width: 90% !important; /* Khi màn hình nhỏ hơn 768px, width sẽ là 100% */
+  }
+  .about-item2 p {
+    font-size: clamp(10px, 3vw, 17px);
+  }
+  .about h2 {
+    font-weight: 500;
+  }
+  .about p {
+    font-weight: 400;
+  }
+}

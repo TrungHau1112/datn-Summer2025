@@ -1,0 +1,40 @@
+.subscribe {
+    width: 100%;
+    height: 70px;
+    background-color: #3D3733;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe h5{
+    margin-right: 10px;
+}
+
+.subscribe img{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.bar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bi{
+    font-size: 20px;
+    font-weight: 100px;
+}
+
+/* responisve */
+/* mobile */
+.bar form {
+    width: 100%;
+}
+
+.bar .form-select,
+.bar input {
+    width: 100%;
+}
