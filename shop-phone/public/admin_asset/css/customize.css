@@ -1,0 +1,190 @@
+tr.active-bg {
+    background-color: rgba(42, 114, 202, 0.275) !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.select2-selection__choice {
+    background-color: #cce6e6 !important;
+    border-color: #b3d9d9 !important;
+    color: #004d4d !important;
+}
+
+option[disabled] {
+    background-color: #cfe2ff !important;
+    color: #084298 !important;
+}
+
+.select2-selection__rendered {
+    align-items: center !important;
+}
+
+.sidebar-dark-primary {
+    background-color: #344150 !important;
+}
+
+/* btn icon */
+.table-actions .btn {
+    --bb-btn-padding-y: 0.25rem;
+    --bb-btn-padding-x: 0.5rem;
+    --bb-btn-border-radius: 0.25rem;
+    --bb-btn-icon-size: 1.25rem;
+    --bb-btn-font-size: 0.75rem;
+}
+.btn-sm {
+    --bb-btn-line-height: 1.5;
+    --bb-btn-icon-size: 0.75rem;
+}
+
+.btn-icon {
+    min-height: calc(
+        var(--bb-btn-line-height) * var(--bb-btn-font-size) +
+            var(--bb-btn-padding-y) * 2 + var(--bb-btn-border-width) * 2
+    );
+    min-width: calc(
+        var(--bb-btn-line-height) * var(--bb-btn-font-size) +
+            var(--bb-btn-padding-y) * 2 + var(--bb-btn-border-width) * 2
+    );
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+}
+
+/* end btn icon */
+
+.img_albums_tgnt {
+    position: relative !important;
+}
+.img_albums_tgnt {
+    position: relative !important;
+}
+
+.img_albums_tgnt .btn_delete_albums_tgnt {
+    position: absolute !important;
+    top: 3% !important;
+    right: 4% !important;
+    display: none;
+    transition: 0.3s ease-in-out;
+}
+.img_li_tgnt:hover .btn_delete_albums_tgnt {
+    display: block;
+}
+
+.ui-sortable {
+    transition: 0.5s ease-in-out;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
+    border: unset !important;
+    background: unset !important;
+    font-weight: unset !important;
+    color: unset !important;
+}
+/* .card-header {
+    background-color: #e9ecef;
+    color: black;
+} */
+/* box seo */
+.box_seo .top_box_seo {
+    gap: 5px;
+}
+.box_seo .top_box_seo_content {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1px; */
+}
+
+.box_seo .top_box_seo_content span {
+    line-height: 1.2rem !important;
+}
+.box_seo .top_box_seo_content small {
+    line-height: 0% !important;
+}
+.box_seo .bottom_box_seo .value_seo_title {
+    font-size: 20px;
+    font-weight: 400;
+    color: #681da8;
+}
+
+/* alert */
+/* .alert-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+} */
+.table-striped tbody tr:nth-of-type(2n + 1) {
+    background-color: unset !important;
+}
+.badge-primary {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
+
+.alert {
+    position: relative;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+/* Display */
+.hidden {
+    display: none;
+}
+/* delete custom */
+.delete-button a {
+    padding: 0 !important;
+}
+.delete-button svg {
+    width: 15px !important;
+    height: 15px !important;
+}
+.delete-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    opacity: 0;
+    transition: all 0.2s ease;
+}
+.delete-custom > a:hover {
+    color: #479aff;
+}
+.delete-custom:hover .delete-button {
+    transform: translate(-50%, -150%) !important;
+    transition: all 0.2s ease;
+    opacity: 1;
+    /* } */
+    border-radius: 0.25rem;
+}
+
+.niceSelect {
+    width: 100% !important;
+}
+.niceSelect .list {
+    width: 100% !important;
+}
+.select2-container--default .select2-selection--multiple {
+    padding: 2px;
+}
+.select2.select2-container.select2-container--default {
+    width: 100% !important;
+}
+
+.fake-variant {
+    height: 100% !important;
+}
+
+.table-pri {
+    color: #084298;
+    background-color: #cfe2ff;
+    border-color: #b6d4fe;
+}
